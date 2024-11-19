@@ -1,5 +1,5 @@
 {
-  "name": "todo your action name",
+  "name": "todo-your-action-name",
   "version": "1.0.0",
   "description": "todo your description",
   "main": "dist/action.js",
