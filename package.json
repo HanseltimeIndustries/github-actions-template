@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "TODO: your repository url"
+    "url": "https://github.com/HanseltimeIndustries/github-actions-template.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "TODO: your reposioty url/issues"
+    "url": "TODO: your repository url/issues"
   },
-  "homepage": "TODO: your reposioty url/#readme",
+  "homepage": "TODO: your repository url/#readme",
   "devDependencies": {
     "@commitlint/config-angular": "^19.0.3",
     "@semantic-release/changelog": "^6.0.3",
