@@ -25,6 +25,13 @@ module.exports = {
 				prepareCmd: "npm run bundle",
 			},
 		],
+		// format any changed files
+		[
+			"@semantic-release/exec",
+			{
+				prepareCmd: "yarn format --fix",
+			},
+		],
 		[
 			"@semantic-release/git",
 			{

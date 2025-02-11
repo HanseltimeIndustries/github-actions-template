@@ -63,6 +63,24 @@ jobs:
         run: |
           npm run bundle
 
+  no-committed-bundle:
+    runs-on: ubuntu-latest
+    if: ${{ github.base_ref }}
+    steps:
+      - id: bundle-changed-files
+        name: Run the action
+        uses: hanseltimeindustries/get-changed-files@v1
+        with:
+          format: 'space-delimited'
+          filter: "bundle/**/*"
+
+      - name: No committed bundle
+        if: ${{ steps.bundle-changed-files.outputs.all }}
+        shell: bash
+        run: |
+          echo "all files in bundle/ directory are committed by the release process.  Please make sure not to commit your bundle files!"
+          exit 1
+
   # TODO: integration tests - write a set of commander based bin scripts that you can configure.
   # The following is an example
   # private-int-test:
