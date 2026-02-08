@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/HanseltimeIndustries/github-actions-template/compare/v1.0.0...v1.0.1) (2026-02-08)
+
+
+### Bug Fixes
+
+* update to new v2 template sync ([73d6b7b](https://github.com/HanseltimeIndustries/github-actions-template/commit/73d6b7b5250d503e1c9378ab701adcdd19640c72))
+
 # 1.0.0 (2024-11-19)
 
 

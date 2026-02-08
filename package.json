@@ -1,6 +1,6 @@
 {
 	"name": "todo-your-action-name",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "todo your description",
 	"main": "dist/action.js",
 	"scripts": {
