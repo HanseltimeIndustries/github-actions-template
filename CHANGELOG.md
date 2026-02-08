@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/HanseltimeIndustries/github-actions-template/compare/v1.0.1...v1.0.2) (2026-02-08)
+
+
+### Bug Fixes
+
+* biome ignore builds ([f624f2a](https://github.com/HanseltimeIndustries/github-actions-template/commit/f624f2a30509850a145260b8d0722196d647ef32))
+
 ## [1.0.1](https://github.com/HanseltimeIndustries/github-actions-template/compare/v1.0.0...v1.0.1) (2026-02-08)
 
 
