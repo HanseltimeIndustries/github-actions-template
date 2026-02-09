@@ -1,5 +1,5 @@
 {
-	"ignore": ["src/**/*", "README.md", "action.yml"],
+	"ignore": ["src/**/*", "README.md", "action.yml", "bundle/**/*"],
 	"merge": [
 		{
 			"glob": "**/*.json",
